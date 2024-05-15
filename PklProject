@@ -1,0 +1,12 @@
+amends "pkl:Project"
+package {
+  name = "Linguist"
+  license = "AGPL-1.0-only"
+  local baseUriWithoutProtocolName = "://github.com/moritz-t-w/\(name)-PKL"
+  baseUri = "package\(baseUriWithoutProtocolName)"
+  version = "0.1.0"
+  sourceCode = "https\(baseUriWithoutProtocolName)"
+  issueTracker = "\(sourceCode)/issues"
+  website = sourceCode
+  packageZipUrl = "\(sourceCode)/releases/v\(version)/\(name)@\(version).zip"
+}
